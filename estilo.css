@@ -135,7 +135,7 @@ form button {
     width: 400px; /* largura de 400 pixels*/
     margin-bottom: 20px;/*adiciona margem inferior de 20 pixels*/
     padding: 8px;/*preenchimento interno de 8 pixels*/
-    margin-left: 650px;
+    margin-left: 560px;
     align-items: center;
     margin-top:5px ;
 }
@@ -156,7 +156,7 @@ form button:hover {
     margin-bottom: 26px;
     margin-top: 20px;
     align-items: center;
-    margin-left: 600px;
+    margin-left: 520px;
     font-size: 35px;
     color:#5a1104;
 }
