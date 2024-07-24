@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Site cafeteria</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"> <h1>Cafeteria Expresso</h1></div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#informacoes">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#duvidas">Dúvidas</a>
+                    </li>
+                    <li>
+                        <a href="#form">Cadastre-se</a>
+                    </li>
+                    <li>
+                        <a href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="informacoes">
+        <div class="section-inicial">
+            <img class="store-front" src="./cafeteria.jpg" alt="fachada cafeteria">
+            <div class="info">
+                <h2>Nossa história</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex fuga amet culpa, nesciunt accusantium ipsam nobis. Placeat molestiae excepturi nemo? Officiis eligendi odit vitae maxime nam commodi ut, possimus veritatis?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi necessitatibus consequatur quidem sunt deserunt atque enim nulla ipsum reiciendis cum similique possimus quod officia, non sed rerum facilis odit. Odit!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor sint tempora voluptate, in ipsum eveniet quaerat odit enim impedit velit eos nulla voluptas ipsam animi saepe, maiores pariatur magni placeat.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, esse quos ducimus dolor voluptatem praesentium. Maxime fugiat id quisquam ea cupiditate quaerat natus vel numquam consequuntur explicabo? Ducimus, debitis fugiat?</p>
+            </div>
+        </div>
+    </section>
+    <section id="duvidas" class="serv">
+        <h2>No que podemos ajudar?</h2>
+        <div class="servicos">
+            <div class="card">
+                <div class="card-text">
+                    <h3>Conheça nosso menu</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nisi fugit neque porro numquam, nam nulla reiciendis voluptatibus, itaque, excepturi provident repellendus corrupti. Voluptatum praesentium illo maiores tempore ipsum sapiente!</p>
+                </div>
+                <div class="card-text">
+                    <h3>Seja um franqueado</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nisi fugit neque porro numquam, nam nulla reiciendis voluptatibus, itaque, excepturi provident repellendus corrupti. Voluptatum praesentium illo maiores tempore ipsum sapiente!</p>
+                </div>
+                <div class="card-text">
+                    <h3> Conheça nossas lojas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nisi fugit neque porro numquam, nam nulla reiciendis voluptatibus, itaque, excepturi provident repellendus corrupti. Voluptatum praesentium illo maiores tempore ipsum sapiente!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="form" class="sectionone">
+        <div class="formulario">
+            <h3>Cadastre-se e receba nossas novidades</h3>
+                <div class="cadastro">
+                    <form action="processar_formulario.php" method="POST">
+                        <input type="text" placeholder="seu nome" required>
+                        <input type="email" placeholder="seu email" required>
+                        <input type="tel" placeholder="seu telefone (opcional)">
+                        <button type="submit">Cadastrar</button>
+                    </form>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <div id="contato"  class="logo-rodape">
+            <h1 class="agencia">Cafeteria Expresso</h1>
+        <div>
+            <h3 class="chamada">Nos acompanhe nas redes sociais</h3>
+            <ul class="sociallinks">
+                <li>
+                    <a href="#">
+                        <img src="./instagram.png" alt="logo do instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="./facebook.png" alt="logo facebook"></a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./youtube.png" alt="logo youtube">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <a class="whats" target="_blank" href="#linkwhats"><img style="width:90px;" src="./whats.png" alt="chamada whats"></a>
+</body>
+</html>

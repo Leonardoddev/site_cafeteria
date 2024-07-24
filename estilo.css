@@ -1,0 +1,204 @@
+/*importa fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+/*aplica um reset básico*/
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header { /*Define cabeçalho*/
+    padding: 16px 0;
+    background-color: #5a1104e0;
+    color: #ff9500;
+}
+header nav li{ /*Define os itens da lista de navegação no cabeçalho*/
+    display: inline;
+    margin-left: 50px;
+    font-size: 18px;
+
+}
+.logo {  /*DEFINE O ESTILO DO LOGOTIPO DA BARRA DE NAVEGAÇÃO*/
+    font-size: 20px;
+    font-family: "Lobster", sans-serif;
+    font-weight: normal;
+}
+header a {  /* ESTILIZA OS LINKS DA BARRA DE NAVEGAÇÃO*/
+    text-decoration: none;
+    color: #ffff;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+}
+header a:hover { /*EFEITO NOS LINKS DA BARRA DE NAVEGAÇÃO*/
+    border: none;
+    border-top: 4px solid #ffff;
+    border-radius: 3px;
+    color:#ff9500;
+}
+.navbar {  /* Define estilo da BARRA DE NAVEGAÇÃO*/
+    max-width: 1280px;
+    width: 100%; /*faz com que a barra de navegação ocupe toda a largura disponível */
+    margin: 0 auto; /*centraliza horizontalmente */
+}
+header .navbar,
+section .section-inicial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.serv{    /*PARTE DE OPÇOES DE AJUDA*/
+    display: inline-block; /*para ocupar apenas o espaço necessário*/
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%; /*preenchimento interno de 5% para separação do conteúdo*/
+    text-align: center;
+    width:90%; /* define a largura como 90% da largura disponível.*/
+}
+.serv h2{  /*TEXTO PRINCIPAL OPÇÔES AJUDA*/
+    width: 100%;
+    font-size: 40px;
+    margin: 0;
+    font-family: "Lobster", cursive;
+    font-weight: normal;
+    color: #ff9500
+
+}
+.card-text h3 {  /*Estiliza os títulos dos cartões de serviço dentro da seção de serviços*/
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 15px;
+    color: #5a1104;
+
+}
+.servicos {
+    display: inline-block;
+    margin-top: 5%;
+}
+.card-text{  /*Estiliza os cartões de serviço dentro da seção de serviços*/
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #ff9500;
+    border-radius: 10px;
+    cursor: pointer; /*define o cursor como ponteiro ao passar o mouse sobre os cartões.*/
+}
+.card-text:hover{ /* Define o estilo dos cartões de serviço quando o mouse passa por cima deles */
+    background: #ff9500;
+    color: white;
+    padding: 40px; /*aumenta o preenchimento interno para 40 pixels para destacar o cartão visualmente.*/
+}
+.section-inicial img {  /*Estiliza a imagem na seção inicial do seu site*/
+    height: 450px;
+    margin-top: 30px;
+    margin-left:50px;
+    border-radius: 12px;
+}
+section .section-inicial{ /*Define o conteúdo dentro da seção para ser exibido em um layout de linha (flex),*/
+    align-items: flex-start;
+}
+.info{
+    height: 500px;
+}
+.info h2 { /*CONFIGURAÇÃO DO TÍTULO NOSSA HISTORIA*/
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: normal;
+    margin-bottom: 26px;
+    margin-left: 20px;
+    margin-top: 70px;
+    font-size: 30px;
+    color:#5a1104;
+
+}
+.info p {  /*CONFIGURAÇÃO DO PARÁGRAFO NOSSA HISTORIA*/
+    margin-bottom: 8px;
+    margin-left: 20px;
+    margin-right: 50px;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif
+}
+.sectionone{
+    width: 100%;
+    height: 350px;
+}
+.cadastro{
+    display: flex;
+    width: 320px;
+}
+/*Estiliza os campos de entrada e o botão dentro do formulário de cadastro*/
+form input,   
+form textarea,
+form button {
+    display: block; /*Define a exibição como bloco*/
+    width: 400px; /* largura de 400 pixels*/
+    margin-bottom: 20px;/*adiciona margem inferior de 20 pixels*/
+    padding: 8px;/*preenchimento interno de 8 pixels*/
+    margin-left: 650px;
+    align-items: center;
+    margin-top:5px ;
+}
+form button {  /*Estiliza o botão*/
+    background-color: #ff9500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #5a1104;
+    color: #ffff;
+
+}
+.formulario h3{ /*stiliza o título do formulário de cadastro*/
+    font-family: "Lobster", sans-serif;
+    font-weight: normal;
+    margin-bottom: 26px;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 600px;
+    font-size: 35px;
+    color:#5a1104;
+}
+input:focus, textarea:focus { /*MUDA A COR DA BORDA DO FORMULÁRIO*/
+    outline-color: #ff9500;
+}
+footer{  /*Estiliza o rodapé do site*/
+    height: 200px;
+    background-color: #ff9500;
+    text-align: center;
+    border-top: 5px solid #5a1104;
+    padding: 50px;
+
+}
+.agencia{ /*TITULO/LOGO RODAPÉ*/
+    font-size: 32px;
+    font-family: "Lobster", sans-serif;
+    margin-bottom: 20px;
+    font-weight: normal;
+    color: #5a1104;
+}
+.whats{ /*Botão de contato, mantem o botão sempre visivel no canto inferior direito da janela do navegador*/
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+}
+.sociallinks img{ /* LOGO REDES SOCIAIS*/
+    height: 30px;
+    margin-right: 14px; /*separara os ícones.*/
+}
+.sociallinks a{ /*REDES SOCIAIS*/
+    text-decoration: none;
+}
+.sociallinks li{ /* Estiliza a lista, define que os itens sejam exibidos em linha, para que os ícones das redes sociais fiquem alinhados horizontalmente.*/
+    display: inline;
+}
+.chamada{ /*Estiliza o texto de chamada para seguir as redes sociais no rodapé.*/
+    color: #5a1104;
+    font-size: 17px;
+    border-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    
+}
